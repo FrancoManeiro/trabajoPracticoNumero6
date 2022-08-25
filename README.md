@@ -1,0 +1,1 @@
+Agregamos readme y tambien algunas animaciones al header, main y footer de todas las paginas

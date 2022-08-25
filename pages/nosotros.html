@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/estilo.css">
 	<title>Nosotros - RyM</title>
 </head>
 <body>
 	<div>
-	    <header class="bgColor">
+	    <header data-aos="fade-up" class="bgColor">
 		    <div>
 			     <a href="../index.html"><img src="../assets/RYM.jpeg"></a>
 		    </div>
@@ -25,15 +26,15 @@
     <!-- cierre header -->
     <!-- inicio contenido -->
         <main class="colorSec gridNosotros">
-            <div class="nosotrosEncab">
+            <div data-aos="zoom-in-left" class="nosotrosEncab">
     		    <h1>NOSOTROS</h1>
 			</div>
-			<div class="nosotrosImg">
+			<div data-aos="fade-up" data-aos-duration="3000" class="nosotrosImg">
     		    <img src="../assets/manitos.jpg">
     	    </div>
 			<div class="nosotrosTxt">
 				<h1>Nos ocupamos de realizar las diligencias correspondientes, para asistirte con todo el profesionalismo y responsabilidad que nos avala</h1>
-    		    <ul>
+    		    <ul data-aos="zoom-in">
     			    <li>TRANSFERENCIAS</li>
     			    <li>BAJAS</li>
     			    <li>INFORMES</li>
@@ -43,17 +44,24 @@
 	 <!--cierre contenido -->
 	    <footer class="bgColor">
 		    <div>
-			    <h1><a href="https://wa.me/543412687888">AYUDA</h1></a>
+			    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+			    	<a href="https://wa.me/543412687888">AYUDA</h1></a>
 		    </div>
 		    <div>
-			    <h1><a href="https://www.instagram.com/estudiointegralrym/">REDES SOCIALES
-				   <img src="../assets/instagram.png"></h1></a>
+			    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+			        <a href="https://www.instagram.com/estudiointegralrym/">REDES SOCIALES
+				    <img src="../assets/instagram.png"></h1></a>
 		    </div>
 		    <div>
-			    <h1><a href="https://wa.me/543412687888">CONTACTO
-				   <img src="../assets/wsp.png"></h1></a>   		                                                            
+			    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+			        <a href="https://wa.me/543412687888">CONTACTO
+				    <img src="../assets/wsp.png"></h1></a>   		                                                            
 		    </div>
 	    </footer>
 	</div>	
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
 </body>
 </html>

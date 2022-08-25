@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/estilo.css">
 	<title>Producto - Rym</title>
 </head>
 <body>
 	<div class="gridProduc gridMedia">
-	    <header class="bgColor">
+	    <header data-aos="fade-up" class="bgColor">
 		    <div class="navMedia">
 			    <a href="../index.html"><img src="../assets/RYM.jpeg" alt="logo"></a>
 		    </div>
@@ -25,32 +26,31 @@
         <!-- cierre header -->
         <!-- inicio contenido -->
         <main class="gridMainSec colorSec">
-    	    <div class="encabezado">
+    	    <div data-aos="zoom-in-left" class="encabezado">
     		    <h1>PRODUCTOS</h1>
     		</div>
-    		<div class="imgPrim">
+    		<div data-aos="fade-up" data-aos-duration="3000" class="imgPrim">
     		    <img src="../assets/produc.jpg">
     	    </div>
     	    <div class="textPrim">
-    		    <ul>
+    		    <ul data-aos="zoom-in">
     			    <li>AUTOMOVILES</li>
     			    <li>MOTOCICLETAS</li>
     			    <li>BICICLETAS DE ALTA GAMA</li>
     		    </ul>
     	    </div>
     	    <div class="textSec">
-    	        <ul>
+    	        <ul data-aos="zoom-in">
     		        <li>Trabajamos con varias compañias</li>
     		        <li>Cotizaciones en el dia</li>
     		        <li>Combinados familiares</li>
     		        <li>Descuentos con tarjeta de credito y debito</li>
     	        </ul>
     	    </div>    
-    	    <div class="textTerc">    
-    	        
+    	    <div data-aos="zoom-in" class="textTerc">    
     	        <p>Nuestro objetivo es brindarte un asesoramiento integral, con la finalidad de resolver los conflictos o dudas que tengas.
     	        Para ello te damos a conocer las ramas que son nuestra especialidad</p>
-    	        <ul>
+    	        <ul data-aos="zoom-in">
     		        <li>Civil</li>
     		        <li>Comercial</li>
     		        <li>Laboral</li>
@@ -62,24 +62,31 @@
     		        <li>Daños y Perjuicios</li>
     	        </ul>
     	    </div>
-    	    <div class="imgSec">    
+    	    <div data-aos="fade-up" data-aos-duration="3000" class="imgSec">    
     	        <img src="../assets/images.png">
     	    </div>    
         </main>
         <!--cierre contenido-->
         <footer class="bgColor">
     	    <div>
-    		    <h1><a href="https://wa.me/543412687888">AYUDA</h1></a>
+    		    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    		    	<a href="https://wa.me/543412687888">AYUDA</h1></a>
     	    </div>
     	    <div>
-    	    	<h1><a href="https://www.instagram.com/estudiointegralrym/">REDES SOCIALES
+    	    	<h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    	    		<a href="https://www.instagram.com/estudiointegralrym/">REDES SOCIALES
     				  <img src="../assets/instagram.png"></h1></a>
     	    </div>
     	    <div>
-    		    <h1><a href="https://wa.me/543412687888">CONTACTO
+    		    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    		    	<a href="https://wa.me/543412687888">CONTACTO
     			     <img src="../assets/wsp.png"></h1></a>   		                                                            
     	    </div>
         </footer>
-    </div>    
+    </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>     
 </body>
 </html>
